@@ -15,7 +15,6 @@ header{
 }
 .logo{
     width:20%;
-    margin:auto;
 }
 h1{
     font-weight:300;
@@ -46,8 +45,12 @@ form, .logo, .image{
 }
 input{
     border: 2px solid hsl(223, 100%, 88%);
-    margin-bottom:20px;
+    text-align: center;
 }
+input:focus, button:focus{
+    outline:none;
+}
+
 button, input{
     height:45px;
     border-radius:30px;
@@ -68,7 +71,7 @@ button{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin:20px auto 20px auto;
+    margin:100px auto 30px auto;
 }
 .soc i{
     margin-right:10px;
@@ -82,5 +85,17 @@ button{
 }
 #facebook{
     padding:10px 11px 10px 11px;
+}
+.copy{
+    color:hsl(0, 0%, 59%);
+font-size: 12px;
+}
+#error{
+    color:red;
+    font-size: 12px;
+font-style: italic;
+}
+.red{
+    border-color: red;
 }
 }
