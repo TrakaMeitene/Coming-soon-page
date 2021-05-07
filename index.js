@@ -5,7 +5,7 @@ const x = document.getElementById("email");
 const y = document.getElementById("error");
 if(inputText.value.match(mailformat))
 {    
-document.form.email();
+ document.form.email();
 return true;
 }
 else
