@@ -220,7 +220,7 @@ border:solid hsl(223, 87%, 63%);
     
     }
     
-@media screen and (min-width:900px){    
+@media screen and (min-width:1000px){    
     
     body{
         display:flex;
@@ -269,7 +269,7 @@ border:solid hsl(223, 87%, 63%);
     input{
         border: 2px solid hsl(223, 100%, 88%);
         text-align: center;
-        width:600px;
+        width:30vw;
     }
     input:focus, button:focus{
         outline:none;
