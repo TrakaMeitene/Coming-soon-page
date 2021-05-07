@@ -269,7 +269,7 @@ border:solid hsl(223, 87%, 63%);
     input{
         border: 2px solid hsl(223, 100%, 88%);
         text-align: center;
-        width:500px;
+        width:600px;
     }
     input:focus, button:focus{
         outline:none;
@@ -287,7 +287,7 @@ border:solid hsl(223, 87%, 63%);
         cursor: pointer;
     }
     .image{
-        width:40%;
+        width:45%;
         padding-top: 60px;
     }
     .soc, form{
